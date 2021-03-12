@@ -17,7 +17,7 @@ public class FunctionsInJava {
 		
 		//Calling Devision Method with Class Object
 		A = obj.devision(10, 2); // this will pass some values in parameter and then method will return a Value
-		System.out.println(A);
+		System.out.println("A-"+A);
 	}
 	
 	// Non-Static Methods with No-Input and No-Output
@@ -29,7 +29,7 @@ public class FunctionsInJava {
 	// Non-Static Method With No-Input but Return an Output/Value
 	// Return type of this method is = int
 	public int Return() {
-		System.out.println("Return method will return an integer Value");
+		System.out.println("Return method will return an integer Value :");
 		int a =10;
 		int b = 20;
 		int c = a+b;
